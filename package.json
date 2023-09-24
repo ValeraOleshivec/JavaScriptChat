@@ -1,0 +1,19 @@
+{
+  "name": "nativelanguages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-cli": "^16.4.2",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0",
+    "socket.io": "^4.7.2"
+  }
+}
