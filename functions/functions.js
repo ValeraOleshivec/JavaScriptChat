@@ -9,7 +9,11 @@ const io = new Server(server);
 
 
 
+app.get('/', (req, res) => {
+    res.sendFile('index.html', {root: '../dist'});
+});
 
+app.use(express.static('/.netlify/functions/functions'))
 
 server.listen(3000, () => {
     console.log('listening on:3000');
