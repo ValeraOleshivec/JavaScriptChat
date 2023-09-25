@@ -187,6 +187,7 @@ main > .RightBlock > .Head > .Name{
 section{
     width: 100%;
     height: 802px;
+    overflow-y:auto;
     background: #F5F5F5;
     flex-direction: column;
 }
